@@ -1,0 +1,110 @@
+body {
+    font-family: Courier, monospace;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #001f3f;
+    flex-direction: column;
+}
+header {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+}
+.wrapper {
+    width: 1000px;
+    max-width: 900px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url('https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+      background-size: cover;
+     background-repeat: no-repeat;
+}
+#quote-container {
+    text-align: center;
+    flex: 1;
+}
+#quote-text {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: white;
+}
+#author {
+    font-size: 18px;
+    color: white;
+}
+.new-quote {
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    flex-direction: column;
+   }
+
+
+  img {
+    width: 50px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.new-quote {
+    margin-top: 10px;; /* Push button to the bottom */
+    background-color: #ddd; /* Light grey background color */
+    color: #333; /* Dark text color */
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: cursive; /* Cursive font */
+    opacity: 0.8; /* Light grey opacity */
+    transition: opacity 0.3s ease; /* Smooth opacity transition on hover */
+}
+.new-quote:hover {
+    opacity: 1; /* Full opacity on hover */
+}
+.copy-quote {
+    margin-top: 10px;; /* Push button to the bottom */
+    background-color: #ddd; /* Light grey background color */
+    color: #333; /* Dark text color */
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: cursive; /* Cursive font */
+    opacity: 0.8; /* Light grey opacity */
+    transition: opacity 0.3s ease; /* Smooth opacity transition on hover */
+}
+
+.copy-quote:hover {
+    opacity: 1; 
+}
+
+
+.custom-button {
+    background-color: #1DA1F2;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50px;
+    height: 40px;
+    color: white;
+}
+
+.custom-button:hover {
+    background-color: #a7dafa;
+}
+
+
+.custom-button img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
